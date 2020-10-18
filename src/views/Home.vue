@@ -2,18 +2,23 @@
   <div class="home">
     <Nav />
     <Content />
+    <Video />
+    <Invitation />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
+import Invitation from "@/components/Invitation.vue";
+import Video from "@/components/Video.vue";
 import Nav from "@/components/Nav.vue";
 import Content from "@/components/Content.vue";
 export default {
   name: "Home",
   components: {
     Nav,
-    Content
+    Content,
+    Invitation,
+    Video
   }
 };
 </script>
