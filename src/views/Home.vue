@@ -2,23 +2,29 @@
   <div class="home">
     <Nav />
     <Content />
-    <Video />
+    <Features />
+    <Technology />
     <Invitation />
   </div>
 </template>
 
 <script>
 import Invitation from "@/components/Invitation.vue";
-import Video from "@/components/Video.vue";
+import Features from "@/components/Features.vue";
 import Nav from "@/components/Nav.vue";
 import Content from "@/components/Content.vue";
+import Technology from "@/components/Technology.vue";
 export default {
   name: "Home",
   components: {
     Nav,
     Content,
     Invitation,
-    Video
+    Features,
+    Technology
   }
 };
 </script>
+
+<style scoped>
+</style>

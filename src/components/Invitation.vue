@@ -1,24 +1,5 @@
 <template>
-  <div class="bg-couple">
-    <div class="container ">
-      <div class="">
-        <ul class=" d-flex justify-content-around mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link text-white" href="#">Akad Nikah</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Resepsi Pernikahan</a>
-          </li>
-        </ul>
-      </div>
-      <div class="d-flex justify-content-center margin-custom text-white">
-        <h1 class="">Me and you just us Two</h1>
-      </div>
-      <div class="d-flex justify-content-center margin-custom text-white">
-        <h5 class="">19.12.2020</h5>
-      </div>
-    </div>
-  </div>
+  <div class=""></div>
 </template>
 
 <script>
@@ -55,12 +36,11 @@ ul li {
 .bg-couple {
   width: 100%;
   height: auto;
-  background: url("../assets/invitation.png") no-repeat center center;
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url("../assets/invitation.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  opacity: 0.65;
 }
 </style>
