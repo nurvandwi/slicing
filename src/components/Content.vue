@@ -5,14 +5,11 @@
         <div class="col-md-6 m-auto">
           <div class="card-body ">
             <p class="card-text font-36">
-              Easy to Use Cloud Budget Management Software
+              Contact
             </p>
             <p class="card-text text-justify ">
-              Our software is made so you can access and manage your budget and
-              expenses online at any time from any device. It provides detailed
-              income and expense reports with graphs so you can easilly see your
-              spending patterns and budget at a glance. Read below to find out
-              more.
+              Questions or concerns? Just fill out the form below and our
+              support team will get back to you within 24 hours
             </p>
             <p class=" text-red">
               <small>
@@ -23,7 +20,17 @@
         </div>
 
         <div class="col-md-6 img-height">
-          <img src="../assets/story-2.png" class="card-img" alt="#" />
+          <video width="600" controls>
+            <source
+              src="../assets/Pexels Videos 2786540.mp4"
+              type="video/mp4"
+            />
+            <source
+              src="../assets/Pexels Videos 2786540.mp4"
+              type="video/ogg"
+            />
+            Your browser does not support HTML5 video.
+          </video>
         </div>
       </div>
     </div>

@@ -4,12 +4,12 @@
     <Content />
     <Features />
     <Technology />
-    <Invitation />
+    <Aplication />
   </div>
 </template>
 
 <script>
-import Invitation from "@/components/Invitation.vue";
+import Aplication from "@/components/Aplication.vue";
 import Features from "@/components/Features.vue";
 import Nav from "@/components/Nav.vue";
 import Content from "@/components/Content.vue";
@@ -19,7 +19,7 @@ export default {
   components: {
     Nav,
     Content,
-    Invitation,
+    Aplication,
     Features,
     Technology
   }
